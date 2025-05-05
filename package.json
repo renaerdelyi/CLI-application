@@ -1,0 +1,28 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renaerdelyi/CLI-application.git"
+  },
+  "author": "Renata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renaerdelyi/CLI-application/issues"
+  },
+  "homepage": "https://github.com/renaerdelyi/CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
